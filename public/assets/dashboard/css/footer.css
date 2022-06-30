@@ -1,0 +1,27 @@
+.site-footer{
+    font-size: 14px;
+    color: #888;
+    padding: 10px 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1032;
+}
+
+.site-footer a{
+    font-size: 14px;
+    color: #888;
+    font-family: 'Poppins', sans-serif; 
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.widget{
+    display: flex;
+    justify-content: end;
+}

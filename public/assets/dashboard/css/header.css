@@ -1,0 +1,43 @@
+.sidebar{
+    margin-top: 0px;
+    padding-top: 1rem;
+}
+
+.logo{
+    font-size: 20px;
+    color: rgb(36, 35, 35);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.logo:hover{
+    color: #000;
+}
+
+.sidebar .nav a{
+    color: rgb(116, 113, 113);
+}
+
+.sidebar .nav a:hover{
+    color: rgb(68, 65, 65);
+}
+
+.sidebar .nav .side-bar-icon{
+    margin-right: 15px;
+}
+
+.dashboard-header{
+    border-bottom: 1px solid rgba(136, 131, 131, 0.5);
+}
+
+.dashboard-header h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 16px;
+    margin-left: 2rem;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+}

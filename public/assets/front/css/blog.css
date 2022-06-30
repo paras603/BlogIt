@@ -1,0 +1,104 @@
+.section{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.section .heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.blog p{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+.blog-heading{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.blog-lead{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(78, 76, 76);
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.blog blockquote p{ 
+    font-family: 'EB Garamond', serif!important;
+    font-style: italic;
+    padding-left: 40px;
+    border-left: 2px solid #000;
+    font-weight: 500;
+    font-size:22px;
+    color: rgb(59, 58, 58);
+}
+
+.post-gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-gallery img{
+    margin-bottom: 0.25rem;
+}
+
+.share-blog{
+    border-top: 1px solid #dee2e6;
+}
+
+.share-blog span{
+    color: gray;
+}
+
+.share-blog .social li a span{
+     color: #000;
+} 
+
+/* similar blogs */
+.related-blogs{
+    position: relative;
+}
+
+.small-horizontal{
+    flex: 0 0 440px;
+}
+
+.thumbnail{
+    flex: 0 0 250px;
+}
+
+.thumbnail img{
+    max-height: 200px;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.related-blogs .content .heading{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.related-blogs .content h2 a{
+    color: rgb(65, 65, 65);
+}
+
+.related-blogs .content p{
+    color: rgb(90, 89, 89);
+}
+
+.post-meta span{
+    color: rgb(134, 133, 133);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.related-blogs .content .post-meta .category{
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}

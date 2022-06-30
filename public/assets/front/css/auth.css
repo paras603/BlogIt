@@ -1,0 +1,91 @@
+.login{
+    padding: 8rem 0;
+}
+
+.logo{
+    font-size: 45px;
+    color: rgb(51, 49, 49);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+    /* border: 2px solid rgb(51, 49, 49);
+    padding: 3px 10px;
+    border-radius: 4px; */
+}
+
+.logo:hover{
+    color: #000;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-group label{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+}
+
+.form-group input{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+}
+
+.login-btn{
+    font-family: 'Poppins', sans-serif!important; 
+    border: 1px solid rgb(70, 69, 69)!important;
+    font-size: 14px!important;
+    background-color: rgb(24, 162, 226)!important;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 500!important;
+}
+
+.forget-password{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.switch{
+    font-size: 14px;
+}
+
+.switch a{
+    color: rgb(77, 75, 75);
+    font-weight: 500;
+    text-decoration: underline!important;
+}
+
+.site-footer{
+    font-size: 12px;
+    color: #888;
+    padding: 70px 0;
+}
+
+.site-footer a{
+    font-size: 14px;
+    color: #888;
+    font-family: 'Poppins', sans-serif; 
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif; 
+}

@@ -1,0 +1,20 @@
+a{
+    text-decoration: none!important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
