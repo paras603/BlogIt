@@ -68,3 +68,9 @@
     color: #000000cf;
     font-size: 28px;
 }
+
+.btn-logout{
+    color: rgb(104, 101, 101);
+    border:none;
+    border-radius: 6px;
+}

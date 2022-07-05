@@ -1,5 +1,6 @@
 <?php
 
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,21 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
 
-Route::get('blog', function(){
-    return view('front.blog');
-});
+Route::view('/home','front.index')->middleware('auth');
+Route::view('/blog','front.blog')->middleware('auth');
 
-Route::get('login', function(){
+Route::get('/', function(){
     return view('auth.login');
 });
 
-Route::get('register', function(){
-    return view('auth.register');
-});
+// Route::get('register', function(){
+//     return view('auth.register');
+// });
 
 Route::get('dashboard', function(){
     return view('dashboard.index');
